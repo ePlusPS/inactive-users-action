@@ -18,7 +18,7 @@ jobs:
         uses: ./
         with:
           token: ${{ secrets.OCTODEMO_TOKEN }}
-          organization: octodemo
+          organization: ePlusPS
           activity_days: 680
           octokit_max_retries: 3
           
