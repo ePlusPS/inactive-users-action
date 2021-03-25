@@ -19,7 +19,7 @@ jobs:
         with:
           token: ${{ secrets.OCTODEMO_TOKEN }}
           organization: ePlusPS
-          activity_days: 680
+          activity_days: 365
           octokit_max_retries: 3
           
 #       - name: Validate Outputs
